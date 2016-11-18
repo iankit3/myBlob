@@ -1,0 +1,1 @@
+ sudo tar --strip-components 1 -xzf ~/Downloads/node-v4.2.6-linux-x64.tar.gz

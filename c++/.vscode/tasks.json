@@ -1,0 +1,19 @@
+{
+    "version": "0.1.0",
+    "command": "sh",
+    "args": ["-c"],
+    "isShellCommand": true,
+    "showOutput": "always",
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "make",
+            "args": ["g++ main.cpp"],
+            "isBuildCommand": true
+        },
+        {
+            "taskName": "showOutput",
+            "args": ["./a.out"]
+        }
+    ]
+}
